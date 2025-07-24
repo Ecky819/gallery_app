@@ -12,7 +12,7 @@ class AboutScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('MyGallery'),
         centerTitle: true,
-        backgroundColor: Colors.red[700], // Passende Farbe
+        backgroundColor: Colors.deepOrange, // Passende Farbe
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -52,6 +52,7 @@ class AboutScreen extends StatelessWidget {
               Text(
                 'Fotograf',
                 style: TextStyle(
+                  fontFamily: 'SF Pro',
                   fontSize: 20.0,
                   color: Colors.grey[700],
                   fontStyle: FontStyle.italic,
@@ -63,6 +64,7 @@ class AboutScreen extends StatelessWidget {
                 aboutMeText,
                 textAlign: TextAlign.justify,
                 style: const TextStyle(
+                  fontFamily: 'SF Pro',
                   fontSize: 18.0,
                   height: 1.6, // Zeilenhöhe für bessere Lesbarkeit
                   color: Colors.black54,
@@ -75,7 +77,7 @@ class AboutScreen extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 1, // Aktueller Index für "Über mich"
         onTap: onNavigate, // Verwenden Sie den Callback für die Navigation
-        selectedItemColor: Colors.red[700], // Ausgewähltes Element in Rot
+        selectedItemColor: Colors.deepOrange, // Ausgewähltes Element in Rot
         unselectedItemColor: Colors.grey, // Nicht ausgewähltes Element in Grau
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.image), label: 'Bilder'),

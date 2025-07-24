@@ -13,7 +13,7 @@ class ImageScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('MyGallery'),
         centerTitle: true,
-        backgroundColor: Colors.red[700], // Passende Farbe
+        backgroundColor: Colors.deepOrange, // Passende Farbe
       ),
       body: GridView.builder(
         padding: const EdgeInsets.all(16.0),
@@ -66,6 +66,7 @@ class ImageScreen extends StatelessWidget {
                       item.title,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
+                        fontFamily: 'SF Pro',
                         fontWeight: FontWeight.bold,
                         fontSize: 16.0,
                       ),
@@ -82,7 +83,8 @@ class ImageScreen extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0, // Aktueller Index für "Bilder"
         onTap: onNavigate, // Verwenden Sie den Callback für die Navigation
-        selectedItemColor: Colors.red[700], // Ausgewähltes Element in Rot
+        selectedItemColor:
+            Colors.deepOrangeAccent, // Ausgewähltes Element in Rot
         unselectedItemColor: Colors.grey, // Nicht ausgewähltes Element in Grau
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.image), label: 'Bilder'),

@@ -12,7 +12,7 @@ class DetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Details'),
         centerTitle: true,
-        backgroundColor: Colors.red[700], // Passende Farbe
+        backgroundColor: Colors.deepOrange, // Passende Farbe
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -49,6 +49,7 @@ class DetailScreen extends StatelessWidget {
                   Text(
                     item.title,
                     style: const TextStyle(
+                      fontFamily: 'SF Pro',
                       fontSize: 28.0,
                       fontWeight: FontWeight.bold,
                     ),
