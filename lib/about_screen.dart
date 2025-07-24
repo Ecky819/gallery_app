@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_gallery/data.dart'; // Importieren Sie Ihre Daten
+import 'package:gallery_app/data.dart'; // Importieren Sie Ihre Daten
 
 class AboutScreen extends StatelessWidget {
   final ValueChanged<int> onNavigate; // Callback, um die Navigation zu steuern

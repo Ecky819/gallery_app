@@ -1,32 +1,40 @@
 import 'package:flutter/material.dart';
-import 'package:app_gallery/image_screen.dart';
-import 'package:app_gallery/about_screen.dart';
+import 'package:gallery_app/image_screen.dart';
+import 'package:gallery_app/about_screen.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatefulWidget {
+  const MyApp({super.key});
 
-  class _MyAppState extends State<MyApp {
-    int _selectedIndex = 0;
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
 
-    late final List<Widget> _screens;
+class _MyAppState extends State<MyApp> {
+  int _selectedIndex = 0; // Aktueller Index für die BottomNavigationBar
 
-    @override
-    void initState() {
-      super.initState();
-      _screens = [
-        ImageScreen(onNavigate: _onItemTapped),
-        AboutScreen(onNavigate: _onItemTapped),
-      ];
-    }
-    void _onItemTapped(int index) {
-      setState(() {
-        _selectedIndex = index;
-      });
-    }
+  // Liste der Bildschirme
+  late final List<Widget> _screens;
+
+  @override
+  void initState() {
+    super.initState();
+    _screens = [
+      ImageScreen(onNavigate: _onItemTapped), // ImageScreen
+      AboutScreen(onNavigate: _onItemTapped), // AboutScreen
+    ];
+  }
+
+  // Callback-Funktion für die BottomNavigationBar
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
