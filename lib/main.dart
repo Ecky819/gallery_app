@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:gallery_app/widgets/image_screen.dart';
 import 'package:gallery_app/widgets/about_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // Initialisiere Flutter Launcher Icons, falls benötigt
+  FlutterNativeSplash.remove();
+  runApp(MyApp());
+}
+
+Future initialization(BuildContext? context) async {
+  // Hier können Sie Initialisierungen vornehmen, z.B. für Firebase oder andere Dienste
+  await Future.delayed(Duration(seconds: 3)); // await Firebase.initializeApp();
 }
 
 class MyApp extends StatefulWidget {
