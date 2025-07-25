@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gallery_app/data.dart'; // Importieren Sie Ihre Daten
-import 'package:gallery_app/detail_screen.dart';
+import 'package:gallery_app/models/data.dart'; // Importieren Sie Ihre Daten
+import 'package:gallery_app/widgets/detail_screen.dart';
 
 class ImageScreen extends StatelessWidget {
   final ValueChanged<int> onNavigate; // Callback, um die Navigation zu steuern

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gallery_app/image_screen.dart';
-import 'package:gallery_app/about_screen.dart';
+import 'package:gallery_app/widgets/image_screen.dart';
+import 'package:gallery_app/widgets/about_screen.dart';
 
 void main() {
   runApp(const MyApp());

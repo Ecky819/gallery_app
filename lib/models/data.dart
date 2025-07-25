@@ -43,7 +43,7 @@ final List<GalleryItem> galleryItems = [
   ),
   GalleryItem(
     imagePath: 'assets/images/Bild05.jpg',
-    title: 'Schwar/weiß Landschaft',
+    title: 'Schwarz/weiß Landschaft',
     description:
         'Felder in Ostholstein, aufgenommen in Schwarz/Weiß, um die Textur und die Formen der Landschaft hervorzuheben.',
     date: '20.006.2017',

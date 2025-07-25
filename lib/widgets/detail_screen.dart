@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gallery_app/data.dart';
+import 'package:gallery_app/models/data.dart';
 
 class DetailScreen extends StatelessWidget {
   final GalleryItem item;
