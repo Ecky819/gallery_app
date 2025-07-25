@@ -14,47 +14,52 @@ class GalleryItem {
 
 final List<GalleryItem> galleryItems = [
   GalleryItem(
-    imagePath: 'assets/images/basketball_1.jpeg',
-    title: 'Bunter Basketball',
+    imagePath: 'assets/images/Bild01.jpg',
+    title: 'Lübeck bei Nacht',
     description:
-        'Ein lebhafter Basketballplatz mit einem Korb, bereit für ein Spiel.',
+        'Die Silhouette von Lübeck bei Nacht aus der Umgebung aufgenommen.',
+    date: '23.08.2018',
   ),
   GalleryItem(
-    imagePath: 'assets/images/ski.jpeg',
-    title: 'Adrenalin pur!',
+    imagePath: 'assets/images/Bild02.jpg',
+    title: 'Jesus am Kreuz',
     description:
-        'Ein Skifahrer in voller Montur fliegt mutig über einen schneebedeckten Hügel, während der klare, blaue Himmel im Hintergrund strahlt. Die Sonne scheint hell, beleuchtet die funkelnden Schneeflocken und den aufgewirbelten Schnee, der unter den Skiern des Fahrers aufsprüht.',
-    date: '14.07.2020',
+        'Aufnahme eines Details des Altars in der Kirch zu Curau in Ostholstein.',
+    date: '30.10.2017',
   ),
   GalleryItem(
-    imagePath: 'assets/images/bike.jpeg',
-    title: 'Achtung Kurve',
+    imagePath: 'assets/images/Bild03.jpg',
+    title: 'Detail des Doms zu Lübeck',
     description:
-        'Eine Gruppe von Radfahrern in enger Formation auf einer kurvigen Straße, während eines Rennens oder einer Trainingsfahrt.',
+        'Detailaufnahme des Doms zu Lübeck, das die beeindruckende Architektur und die kunstvollen Verzierungen zeigt.',
+    date: '10.05.2015',
   ),
   GalleryItem(
-    imagePath: 'assets/images/running.jpeg',
-    title: 'Runners High',
+    imagePath: 'assets/images/Bild04.jpg',
+    title: 'Silouette von Lübeck im Frühjahr',
     description:
-        'Läufer auf einer roten Tartanbahn, die sich aufwärmen oder rennen, mit verschwommenem Hintergrund, der Bewegung andeutet.',
+        'Silouette von Lübeck im Frühjahr, aufgenommen bei strahlendem Sonnenschein, der die Stadt in Licht taucht.',
+    date: '23.04.2018',
   ),
   GalleryItem(
-    imagePath: 'assets/images/basketball_2.jpeg',
-    title: 'Swish',
+    imagePath: 'assets/images/Bild05.jpg',
+    title: 'Schwar/weiß Landschaft',
     description:
-        'Ein Basketballkorb mit Netz, der von unten fotografiert wurde, mit dem Himmel im Hintergrund, der ein Gefühl von Weite vermittelt.',
+        'Felder in Ostholstein, aufgenommen in Schwarz/Weiß, um die Textur und die Formen der Landschaft hervorzuheben.',
+    date: '20.006.2017',
   ),
   GalleryItem(
-    imagePath: 'assets/images/tennis_1.jpeg',
-    title: 'Ball Game',
+    imagePath: 'assets/images/Bild06.jpg',
+    title: 'Trave Mündung',
     description:
-        'Ein Tennisball auf einem Tennisplatz, der im Sonnenlicht glänzt, bereit für den nächsten Aufschlag.',
+        'Die Mündung der Trave in Lübeck-Travemünde, die den Übergang von der Stadt zum Wasser zeigt.',
+    date: '20.09.2016',
   ),
 ];
 
 // Daten für den "Über mich"-Bildschirm
 final String aboutMeText = """
-Mein Name ist Kaya Müller, ein Fotograf im Alter von 32 Jahren, der die Welt durch die Linse entdeckt. Mit einem Hintergrund in der visuellen Kunst und jahrelanger Erfahrung in der Fotografie habe ich einen Blick für die Schönheit im Alltäglichen entwickelt. Meine Spezialität liegt in der Sport- und Naturfotografie, wo ich das Spiel von Licht und Schatten einfange, um emotionale und aussagekräftige Bilder zu schaffen.
+Mein Name ist Marco Eggert, ein Fotograf im Alter von 51 Jahren, der die Welt durch die Linse entdeckt. Mit einem Hintergrund in der visuellen Kunst und jahrelanger Erfahrung in der Fotografie habe ich einen Blick für die Schönheit im Alltäglichen entwickelt. Meine Spezialität liegt in der Street- und Landschaftsfotografie, wo ich das Spiel von Licht und Schatten einfange, um emotionale und aussagekräftige Bilder zu schaffen.
 
-Ich glaube daran, dass jeder Moment eine Geschichte zu erzählen hat, und ich bemühe mich, diese Geschichten in meinen Fotografien festzuhalten. Ob es sich um die Intensität eines Sportwettkampfs oder die ruhige Majestät einer Naturlandschaft handelt, mein Ziel ist es, Bilder zu schaffen, die nicht nur visuell ansprechend sind, sondern auch Emotionen wecken und zum Nachdenken anregen.
+Ich glaube daran, dass jede Landschaft auch eine Geschichte zu erzählen hat, und ich bemühe mich, diese Geschichten in meinen Fotografien festzuhalten. Ob es sich um die Intensität der Wolken oder die ruhige Majestät der Architektur handelt, mein Ziel ist es, Bilder zu schaffen, die nicht nur visuell ansprechend sind, sondern auch Emotionen wecken und zum Nachdenken anregen.
 """;

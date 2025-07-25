@@ -23,7 +23,7 @@ class AboutScreen extends StatelessWidget {
               // Profilbild
               CircleAvatar(
                 radius: 80,
-                backgroundImage: const AssetImage('assets/images/kaya.jpeg'),
+                backgroundImage: const AssetImage('assets/images/Profil.jpg'),
                 onBackgroundImageError: (exception, stackTrace) {
                   // Fallback, falls das Bild nicht geladen werden kann
                   debugPrint('Error loading profile image: $exception');
@@ -40,7 +40,7 @@ class AboutScreen extends StatelessWidget {
               const SizedBox(height: 24.0),
               // Name
               const Text(
-                'Kaya Müller',
+                'Marco Eggert',
                 style: TextStyle(
                   fontSize: 32.0,
                   fontWeight: FontWeight.bold,
